@@ -102,13 +102,13 @@ async def get_thumb(videoid):
             (36, 670),
             "00:00",
             (0, 0, 0),
-            font=arial,
+            font=font,
         )
         draw.text(
             (1185, 670),
             f"{duration[:23]}",
             (0, 0, 0),
-            font=arial,
+            font=font,
         )
         try:
             os.remove(f"cache/thumb{videoid}.png")

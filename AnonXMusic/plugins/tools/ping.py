@@ -3,11 +3,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.call import Anony
-from AnonXMusic.utils import bot_sys_stats
-from AnonXMusic.utils.decorators.language import language
-from AnonXMusic.utils.inline import supp_markup
+from Jiosaavn import app
+from Jiosaavn.core.call import Anony
+from Jiosaavn.utils import bot_sys_stats
+from Jiosaavn.utils.decorators.language import language
+from Jiosaavn.utils.inline import supp_markup
 from config import BANNED_USERS, PING_IMG_URL
 
 
